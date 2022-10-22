@@ -1,0 +1,273 @@
+@font-face{
+	/*src: url(../fonts/Poppins-Medium.ttf);
+	font-family: Poppins-Medium;*/
+	src: url(../fonts/Poppins-Regular.ttf);
+	font-family: Poppins-Regular;
+	
+}
+
+/*Common CSS start*/
+body{
+	font-family: Poppins-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: #000000;
+}
+/*Common CSS end*/
+
+/*Header start*/
+header{
+	padding: 10px 0;
+	background-color: #F0FFF0;
+}
+.logo{
+	width: 195px;
+}
+.menu ul li a{
+	padding: 0 25px !important;
+	font-weight: 400;
+	font-size: 16px;
+	color: #000000 !important;
+	line-height: 24px;
+}
+.menu ul li a:hover{
+	color: #FD511A !important;
+}
+@font-face{
+	src: url(../fonts/Roboto-Regular.ttf);
+	font-family: Roboto-Regular;
+}
+.btn_common{
+	font-family: Roboto-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+	color: #FFFFFF !important;
+	background-color: #21B573 !important;
+	border-radius: 33px;
+	transition: .3s ease-in-out;
+}
+
+.btn_sign{
+	padding: 12px 25px;
+	margin-left: 5px;
+	width: 105px;
+	height: 45px;
+}
+.btn_common:hover{
+	background-color: #FD511A !important;
+}
+/*Header end*/
+
+/*Banner CSS start*/
+.banner{
+	padding: 30px 0 60px;
+	background-color: #F0FFF0;
+}
+.b_text{}
+.b_p_one{	
+	color: #FD511A;
+	line-height: 24px;
+}
+@font-face{
+	src: url(../fonts/Poppins-Bold.ttf);
+	font-family: Poppins-Bold;
+}
+.b_h_one{
+	margin: 10px 0 19px;
+	font-family: Poppins-Bold;
+	font-size: 48px;
+	font-weight: 700;	
+	line-height: 70px;
+	letter-spacing: 2px;
+}
+.b_h_one span{
+	color: #21B573;
+}
+.b_p_two{
+	line-height: 36px;
+}
+.btn_banner{
+	margin-top: 14px;
+	padding: 12px 35px;
+	width: 153px;
+	height: 43px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border: 1px solid #000000;
+}
+.b_img{}
+.b_img img{}
+
+/*Banner CSS end*/
+
+/*Feature CSS start*/
+.feature{
+	padding-top: 45px;
+	padding-bottom: 100px;
+}
+.f_contant{
+	padding: 55px;
+	width: 100%;
+	min-height: 270px;
+	background-color: #F0FFF0;
+	border-radius: 10px;
+	text-align: center;
+	transition: .3s ease-in-out;
+}
+.f_contant:hover{
+	background: #FFFFFF;
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.f_img{
+	margin-bottom: 22px;
+}
+.f_img img{}
+@font-face{
+	src: url(../fonts/Poppins-Medium.ttf);
+	font-family: Poppins-Medium;
+}
+.f_h2{
+	font-family: Poppins-Medium;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 36px;
+}
+.f_p{
+	line-height: 24px;
+}
+/*Feature CSS end*/
+
+/*Course CSS start*/
+.course{
+	padding: 0 0 100px;
+}
+.title h1{
+	font-family: Poppins-Bold;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 54px;
+	text-align: center;
+}
+.course_content{
+	margin-top: 60px;
+	padding: 25px 20px 30px;
+	background: #FFFFFF;
+	box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 18px;
+}
+.course_img{}
+.course_img img{}
+.course_h2{
+	margin: 19px 0 3px;
+	font-family: Poppins-Medium;	
+	font-size: 24px;
+	font-weight: 500;
+	color: #413960;
+	line-height: 36px;	
+}
+.course_p{
+	line-height: 24px;
+}
+.btn_course{
+	margin: 20px 0 35px;
+	padding: 8px 25px;
+	width: 137px;
+	height: 35px;
+}
+.course_footer{
+	overflow: hidden;
+}
+.calendar{}
+.calendar ul, .people ul{}
+.calendar ul li, .people ul li{}
+.calendar ul li img, .people ul li img{
+	width: 24px;
+}
+.calendar ul li span,.people ul li span{
+	font-weight: 500;
+	line-height: 24px;
+}
+.people{}
+/*Course CSS end*/
+
+/*Testimonial start*/
+.testimonial{
+	padding: 0 0 100px;
+}
+.t_inner{}
+.t_item{
+	margin-top: 60px;
+}
+.t_img{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+.t_img img{}
+.t_item p{
+	line-height: 30px;
+}
+/*Testimonial end*/
+
+/*Footer start*/
+.contact{
+	padding: 55px 0 30px;
+	color: #ffffff;
+	background-color: #282531;
+}
+.contact_para{
+	padding: 0 28px;
+}
+.contact_para p{
+	line-height: 30px;
+}
+.contact_list{}
+.contact_list ul{
+	padding: 0 0 60px;
+	list-style: none;
+}
+@font-face{
+	src: url(../fonts/Poppins-Regular.ttf);
+	font-family: Poppins-Regular;	
+}
+.contact_list ul li a{
+	font-family: Poppins-regular;
+	color: #ffffff;
+	text-decoration: none;
+	transition: .33s ease-in-out;
+}
+.contact_list ul li a:hover{
+	color: #FD511A;
+}
+.contact_h2{
+	font-family: Poppins-Bold;
+	font-size: 18px;
+	font-weight: 700;	
+	line-height: 30px;
+}
+.contact_listitem{
+	font-family: Poppins-regular;
+	font-size: 16px;
+}
+
+/*Conatct CSS end*/
+
+
+/*Footer CSS start*/
+footer{
+	padding: 0 0 25px;
+	font-family: Poppins-regular;
+	font-size: 14px;
+	color: #CDCDCD;
+	text-align: center;
+	background-color: #282531;
+}
+footer a{
+	color: #CDCDCD;
+	text-decoration: none;
+	transition: .33s ease-in-out;
+}
+footer a:hover{
+	color: #FD511A;
+}
+/*Footer CSS end*/
